@@ -7,18 +7,31 @@ Cấu trúc dự án
 
 .
 ├── app.py                  # File chính để khởi chạy ứng dụng Flask
+
 ├── routes.py               # Các API endpoint chính của ứng dụng
+
 ├── models/                 # Thư mục chứa các mô hình đã huấn luyện
+
 │   ├── trained_model.pkl    # Mô hình đã được huấn luyện
+
 │   ├── test_data.csv        # Dữ liệu kiểm tra đã được tách ra trong quá trình huấn luyện
+
 │   └── trained_columns.pkl  # Danh sách các cột đã được mã hóa trong quá trình huấn luyện
+
 ├── data/                   # Thư mục chứa dữ liệu thô
+
 │   └── insurance.csv        # Dữ liệu insurance.csv
+
 ├── eda.py                  # File phân tích dữ liệu (Exploratory Data Analysis)
+
 ├── engine.py               # File xử lý dữ liệu
+
 ├── model_performance.py     # File đánh giá và huấn luyện mô hình
+
 ├── stats.py                # File tính toán các thông số thống kê
+
 ├── utils.py                # Các hàm hỗ trợ
+
 └── README.md               # File README (hướng dẫn sử dụng)
 
 ## Yêu cầu hệ thống
