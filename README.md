@@ -5,7 +5,6 @@ Dự án này sử dụng một mô hình học máy để dự đoán chi phí 
 
 Cấu trúc dự án
 
-.
 ├── app.py                  # File chính để khởi chạy ứng dụng Flask
 
 ├── routes.py               # Các API endpoint chính của ứng dụng
